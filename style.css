@@ -1,0 +1,94 @@
+.flex{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.centre{
+    margin: auto;
+}
+
+.google{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+input{
+    height:40px;
+    width: 500px;
+    padding: 0px,40px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(red, green, blue, alpha);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+form{
+    margin: auto;
+}
+
+input :hover{
+    box-shadow: 0 1px 6px 0 rgba(21, green, blue, alpha);
+    border-color: rgb(223,235, 32,0);
+}
+
+.micbutton{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(900%,-220%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.magbutton {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.nav{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.leftalign{
+    float: left;
+}
+.rightalign{
+    float:right;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: .5pt;
+    border-style: solid;
+    bottom: 0;
+    border-color: rgb(236,235,235);
+}
+
+.footerright{
+    float:right;
+    padding: 20px;
+}
+
+.footerleft{
+    float: left;
+    padding: 20px;
+}
